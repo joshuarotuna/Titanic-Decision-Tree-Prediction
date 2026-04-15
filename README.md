@@ -9,12 +9,24 @@ This notebook contains a full pipeline of the ML model:
 - Decision Tree Visualization
 - Manual Prediction (for specific passenger characteristics)
 
-### Test Accuracy
+### Key Findings
 Train accuracy : 0.836 | Test  accuracy : 0.777
-
 Tree depth     : 4 | Leaf nodes     : 14
 
-Accessing Seaborne Titanic Dataset: 
+The model predicted 77.7% of passengers outcome correctly (~6% higher than on train data)
+
+Classification Report
+───────────────────────────────────────────────────────
+                 precision    recall  f1-score   support
+
+Did not survive       0.77      0.92      0.83       110
+       Survived       0.81      0.55      0.66        69
+
+       accuracy                           0.78       179
+      macro avg       0.79      0.73      0.74       179
+   weighted avg       0.78      0.78      0.77       179
+
+### Accessing Seaborne Titanic Dataset: 
 import seaborn as sns
 df = sns.load_dataset('titanic')
 
