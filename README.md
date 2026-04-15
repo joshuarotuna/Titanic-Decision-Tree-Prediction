@@ -15,6 +15,7 @@ Train accuracy : 0.836
 Test  accuracy : 0.777
 
 Tree depth     : 4
+
 Leaf nodes     : 14
 
 Accessing Seaborne Titanic Dataset: 
