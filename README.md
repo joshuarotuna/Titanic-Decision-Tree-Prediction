@@ -9,6 +9,8 @@ This notebook contains a full pipeline of the ML model:
 - Decision Tree Visualization
 - Manual Prediction (for specific passenger characteristics)
 
+#
+
 ### Key Findings
 Train accuracy : 0.836 | Test  accuracy : 0.777
 Tree depth     : 4 | Leaf nodes     : 14
@@ -23,7 +25,7 @@ Recall
 Did Not Survive:   0.92
 Survived:          0.55
 
-
+#
 
 ### Accessing Seaborne Titanic Dataset: 
 import seaborn as sns
