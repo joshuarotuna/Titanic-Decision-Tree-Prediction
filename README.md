@@ -10,13 +10,9 @@ This notebook contains a full pipeline of the ML model:
 - Manual Prediction (for specific passenger characteristics)
 
 ### Test Accuracy
-Train accuracy : 0.836
+Train accuracy : 0.836 | Test  accuracy : 0.777
 
-Test  accuracy : 0.777
-
-Tree depth     : 4
-
-Leaf nodes     : 14
+Tree depth     : 4 | Leaf nodes     : 14
 
 Accessing Seaborne Titanic Dataset: 
 import seaborn as sns
