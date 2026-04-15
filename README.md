@@ -11,7 +11,9 @@ This notebook contains a full pipeline of the ML model:
 
 ### Test Accuracy
 Train accuracy : 0.836
+
 Test  accuracy : 0.777
+
 Tree depth     : 4
 Leaf nodes     : 14
 
