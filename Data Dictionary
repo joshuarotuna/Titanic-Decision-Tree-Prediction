@@ -1,0 +1,12 @@
+## Data Dictionary
+
+| Feature | Type | Description | Values |
+|---------|------|-------------|--------|
+| survived | int | Survival outcome (target) | 0 = No, 1 = Yes |
+| pclass | int | Passenger ticket class | 1 = First, 2 = Second, 3 = Third |
+| sex | str | Passenger sex | male, female |
+| age | float | Passenger age in years | 0.42 – 80.0 |
+| sibsp | int | Siblings / spouses aboard | 0 – 8 |
+| parch | int | Parents / children aboard | 0 – 6 |
+| fare | float | Ticket price in British pounds | 0 – 512.33 |
+| embarked | str | Port of embarkation | C = Cherbourg, Q = Queenstown, S = Southampton |
